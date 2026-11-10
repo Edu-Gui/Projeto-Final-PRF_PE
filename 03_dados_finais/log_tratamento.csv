@@ -1,0 +1,21 @@
+tabela,tratamento,linhas_afetadas
+ocorrencias,Remoção de ocorrências duplicadas (id),0
+ocorrencias,Linhas com data inválida removidas,0
+ocorrencias,"""sentido_via"": Ignorado/nulo -> ""Não informado""",9
+ocorrencias,"""condicao_metereologica"": Ignorado/nulo -> ""Não informado""",32
+ocorrencias,"""uop"": Ignorado/nulo -> ""Não informado""",1
+ocorrencias,Contagens de vítimas/veículos nulas -> 0,0
+ocorrencias,BR ou km ausentes (mantidos como nulo),0
+ocorrencias,Coordenadas fora de PE -> nulo,0
+ocorrencias,Grafia de município corrigida para o padrão IBGE,20
+ocorrencias,"Colunas derivadas criadas: ano, mes, mes_nome, ano_mes, hora, faixa_horaria, fim_de_semana, dia_semana_num, gravidade, com_morte, br_nome, trecho_10km, lat_long, cod_ibge",3013
+pessoas,Remoção de pessoas duplicadas (pesid),346
+pessoas,Pessoas sem ocorrência correspondente removidas,0
+pessoas,"""tipo_veiculo"": Ignorado/nulo -> ""Não informado""",305
+pessoas,"""tipo_envolvido"": Ignorado/nulo -> ""Não informado""",1
+pessoas,"""estado_fisico"": Ignorado/nulo -> ""Não informado""",678
+pessoas,"""sexo"": Ignorado/nulo -> ""Não informado""",687
+pessoas,Idade < 0 ou > 100 -> nulo,4
+pessoas,Ano de fabricação fora de 1950-2026 -> nulo,907
+pessoas,"Colunas derivadas criadas: faixa_etaria, grupo_veiculo, idade_veiculo, vitima_fatal, ferido",7300
+municipios,"Colunas derivadas criadas: cod_ibge, acidentes, mortos, acidentes_100mil_hab, mortos_100mil_hab, letalidade_pct, porte, municipio_uf",185
