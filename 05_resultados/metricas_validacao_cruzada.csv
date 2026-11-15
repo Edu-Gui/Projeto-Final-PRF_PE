@@ -1,0 +1,5 @@
+,PR-AUC,ROC-AUC
+Combinação (Voting),0.3918,0.796
+Gradient Boosting,0.3886,0.7878
+Random Forest,0.3731,0.7709
+Regressão Logística,0.3592,0.7919
